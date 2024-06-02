@@ -1,1 +1,114 @@
-/*# sourceMappingURL=index.css.map */
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+body {
+  margin: 0;
+  background: #242B33;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.rome-number {
+  font-family: "Playfair Display";
+  color: #fff;
+  opacity: 2%;
+  font-size: 400px;
+  position: absolute;
+  right: -10%;
+  bottom: -100%;
+  font-weight: 600;
+}
+
+.header {
+  font-family: "Raleway";
+  position: absolute;
+  width: 100%;
+  top: 30px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__content nav {
+  display: flex;
+  gap: 40px;
+}
+.header__content nav a {
+  color: #fff;
+}
+
+.hero {
+  background: url(../assets/img/hero-img.jpg) center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hero h1 {
+  color: #D4C17F;
+  font-size: 48px;
+  font-family: "Playfair Display";
+  width: 556px;
+}
+.hero__content {
+  text-align: center;
+}
+.hero-mouse {
+  margin-top: 100px;
+}
+.hero__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  color: #fff;
+  font-family: "Raleway";
+  margin-top: 200px;
+}
+.hero__bottom span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.features {
+  color: #fff;
+  font-family: "Roboto";
+  padding: 150px 0;
+}
+.features__content {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+}
+.features__item {
+  width: 15%;
+  text-align: center;
+}
+.features__item p {
+  margin-top: 53px;
+}/*# sourceMappingURL=index.css.map */

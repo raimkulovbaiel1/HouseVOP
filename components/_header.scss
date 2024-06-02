@@ -1,0 +1,21 @@
+.header {
+    font-family: "Raleway";
+    position: absolute;
+    width: 100%;
+    top: 30px;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        nav {
+            display: flex;
+            gap: 40px;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+}

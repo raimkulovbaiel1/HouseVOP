@@ -1,0 +1,21 @@
+.features {
+    color: #fff;
+    font-family: "Roboto";
+    padding: 150px 0;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        position: relative;
+    }
+
+    &__item {
+        width: 15%;
+        text-align: center;
+
+        p {
+            margin-top: 53px;
+        }
+    }
+}

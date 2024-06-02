@@ -1,0 +1,39 @@
+.hero {
+    background: url(../assets/img/hero-img.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+        color: #D4C17F;
+        font-size: 48px;
+        font-family: "Playfair Display";
+        width: 556px;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &-mouse {
+        margin-top: 100px;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        color: #fff;
+        font-family: "Raleway";
+        margin-top: 200px;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
